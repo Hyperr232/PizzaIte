@@ -3,11 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="styles/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PizzaIte</title>
+    <title>ReactPizza</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <header class="header">
+        <div class="header-logo">
+          <img
+            class="logo-picture"
+            src="assets/pizzalogo.svg"
+            alt="pizzalogo"
+          />
+          <div class="inline-logo">
+            <h1 class="label-logo">REACT PIZZA</h1>
+            <span class="label-description"
+              >самая вкусная пицца во вселенной</span
+            >
+          </div>
+        </div>
+
+        <button class="header-basket-counter_btn">
+          <span>520 ₽</span>
+          <span class="separator"></span>
+          <img src="assets/basket.svg" alt="basket" />
+          <span>3</span>
+        </button>
+      </header>
+      <hr />
+      <div class="categories">
+        <button class="categories__btn categories__btn_active">Все</button>
+        <button class="categories__btn">Мясные</button>
+        <button class="categories__btn">Вегетарианская</button>
+        <button class="categories__btn">Гриль</button>
+        <button class="categories__btn">Острые</button>
+        <button class="categories__btn">Закрытые</button>
+
+        <div class="sorting_btn">
+          <img src="assets/list arrow.svg" alt="sorting button" />
+          <div class="sort-text">
+            Сортировка по: <span class="sort-text_type">популярности</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>

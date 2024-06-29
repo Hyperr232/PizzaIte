@@ -1,0 +1,37 @@
+.orange-btn {
+}
+.categories__btn {
+  line-height: 19.49px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2c2c2c;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  padding: 15px 34px 15px 34px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.categories__btn_active {
+  background-color: var(--color-active);
+  color: #ffffff;
+}
+.categories {
+  display: flex;
+  gap: 9px;
+  margin-top: 40px;
+  margin-left: 67px;
+}
+
+.sorting_btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 173px;
+}
+.sort-text {
+  padding-left: 7px;
+}
+.sort-text_type {
+  color: var(--color-primary);
+  border-bottom: dotted;
+}

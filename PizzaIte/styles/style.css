@@ -1,0 +1,36 @@
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed");
+@import "header.css";
+@import "buttons.css";
+@import "logos.css";
+:root {
+  --color-active: #282828;
+  --color-primary: #fe5f1e;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+body {
+  background-color: #ffdf8c;
+  font-family: "Proxima Nova Condensed", sans-serif;
+}
+
+.separator {
+  width: 1px;
+  height: 20px;
+  background-color: #ffffff40;
+  margin: 12px 13px 13px 13px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #f6f6f6;
+}

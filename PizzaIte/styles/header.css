@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 49px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 49px;
+  margin-bottom: 40px;
+}
+
+.header-basket-counter_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--color-primary);
+  border-radius: 30px;
+  border: none;
+  margin-right: 38px;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  font-family: "Proxima Nova Condensed", sans-serif;
+}
+.header-basket-counter_btn > img {
+  padding-right: 8px;
+}
