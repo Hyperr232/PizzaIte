@@ -2,9 +2,13 @@
 @import "header.css";
 @import "buttons.css";
 @import "logos.css";
+@import "dropdownmenu.css";
+@import "pizza-menu.css";
 :root {
   --color-active: #282828;
   --color-primary: #fe5f1e;
+  --color-pizza-text: rgba(0, 0, 0, 1);
+  --color-add-btn: #eb5a1e;
 }
 * {
   margin: 0;

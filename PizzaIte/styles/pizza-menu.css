@@ -1,0 +1,65 @@
+.pizza-menu {
+  display: flex;
+  margin-left: 67px;
+}
+.pizza-card {
+  display: flex;
+  flex-direction: column;
+}
+.pizza-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 800;
+  margin-bottom: 22px;
+  color: var(--color-pizza-text);
+  text-align: center;
+}
+.pizza-type {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+.pizza-price {
+  font-weight: 700;
+  line-height: 27px;
+  font-size: 22px;
+  margin-top: 24px;
+}
+
+.categories-label {
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 32px;
+  margin-left: 67px;
+  margin-bottom: 32px;
+  color: var(--color-pizza-text);
+}
+/* Выбор пиццы */
+.options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.options-size {
+  display: flex;
+  justify-content: space-evenly;
+}
+.option {
+  background-color: #f3f3f3;
+  padding: 10px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  flex: 1;
+  margin: 5px;
+}
+
+.option.active {
+  background-color: #ffffff;
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+.option:not(.active):hover {
+  background-color: #ffffff;
+}
+/* Выбор пиццы */
