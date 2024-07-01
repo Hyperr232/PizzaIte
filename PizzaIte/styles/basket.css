@@ -48,7 +48,18 @@
   background-color: transparent;
   border: none;
 }
-
+.counter-btn_minus:hover svg circle {
+  fill: var(--color-primary);
+}
+.counter-btn_minus:hover svg path {
+  fill: #fff;
+}
+.counter-btn_plus:hover svg circle {
+  fill: var(--color-primary);
+}
+.counter-btn_plus:hover svg path {
+  fill: #fff;
+}
 .counter-btn_plus {
   cursor: pointer;
   border: none;
@@ -58,6 +69,13 @@
   cursor: pointer;
   border: none;
   background-color: transparent;
+}
+.delete-pizza-btn:hover svg circle {
+  fill: black;
+  stroke: black;
+}
+.delete-pizza-btn:hover svg path {
+  fill: #fff;
 }
 .basket-total {
   display: flex;

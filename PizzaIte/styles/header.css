@@ -2,14 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 49px;
+  margin-bottom: 40px;
 }
 
 .header-logo {
   display: flex;
   align-items: center;
-  margin-top: 49px;
-  margin-bottom: 40px;
 }
 
 .header-basket-counter_btn {
@@ -25,7 +23,7 @@
   cursor: pointer;
   height: 50px;
   width: 150px;
-  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
 }
 .header-basket-counter_btn > img {
   padding-right: 8px;

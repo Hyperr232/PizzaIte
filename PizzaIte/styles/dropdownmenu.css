@@ -3,11 +3,7 @@
   align-items: center;
   margin-left: 173px;
   position: relative;
-}
-
-.dropdown {
-  position: relative;
-  display: flex;
+  flex: 0 0 auto;
 }
 
 /* Выпадающее содержимое (скрыто по умолчанию) */
