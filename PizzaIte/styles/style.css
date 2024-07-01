@@ -4,11 +4,13 @@
 @import "logos.css";
 @import "dropdownmenu.css";
 @import "pizza-menu.css";
+@import "basket.css";
 :root {
   --color-active: #282828;
   --color-primary: #fe5f1e;
   --color-pizza-text: rgba(0, 0, 0, 1);
   --color-add-btn: #eb5a1e;
+  --color-cancel-btn: #cacaca;
 }
 * {
   margin: 0;
@@ -37,4 +39,26 @@ hr {
   border: 0;
   height: 1px;
   background-color: #f6f6f6;
+}
+
+.orange_btn {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.gray_btn {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.49px;
+  border-radius: 30px;
+  border: 1px solid #d3d3d3;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  color: var(--color-cancel-btn);
+  background-color: transparent;
 }

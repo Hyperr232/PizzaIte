@@ -22,10 +22,9 @@
   font-weight: 700;
   line-height: 27px;
   font-size: 22px;
-  margin-top: 24px;
 }
 
-.categories-label {
+.label {
   font-size: 32px;
   line-height: 39px;
   margin-top: 32px;
@@ -62,4 +61,15 @@
 .option:not(.active):hover {
   background-color: #ffffff;
 }
-/* Выбор пиццы */
+/* счетчик*/
+
+.pizza-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-add-btn);
+  color: #ffffff;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}

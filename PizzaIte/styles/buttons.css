@@ -32,16 +32,24 @@
   border-bottom: dotted;
 }
 
-.add-basket {
+.add-basket_active {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 17px;
 }
-.add_basket_btn {
-  margin-left: 36px;
-  padding: 12px 21px 12px 21px;
+.add_basket_btn_active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-add-btn);
+  background-color: transparent;
+  cursor: pointer;
   border: 1px solid var(--color-add-btn);
+  gap: 5px;
+  width: 155px;
+  height: 40px;
   border-radius: 30px;
-  color: #ffffff;
-  background-color: var(--color-primary);
   font-size: 16px;
   font-weight: 700;
 }
