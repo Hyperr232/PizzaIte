@@ -17,7 +17,7 @@
 .basket-pizza-card {
   border-top: 1px solid #f4f4f4;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 30px;
 }
@@ -29,6 +29,7 @@
 .card-label {
   display: flex;
   flex-direction: column;
+  width: 280px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 800;
@@ -38,6 +39,7 @@
 .basket-counter-btn {
   display: flex;
   align-items: center;
+  margin-right: 93px;
   gap: 12px;
   height: 32px;
   font-size: 22px;
@@ -60,16 +62,7 @@
 .counter-btn_plus:hover svg path {
   fill: #fff;
 }
-.counter-btn_plus {
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-}
-.delete-pizza-btn {
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-}
+
 .delete-pizza-btn:hover svg circle {
   fill: black;
   stroke: black;
@@ -119,4 +112,27 @@
   align-items: center;
   width: 211px;
   height: 55px;
+}
+.counter-btn_plus {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.delete-pizza-btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.cancel_btn:hover {
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  background-color: var(--color-active);
+  color: #ffffff;
+}
+.pay_btn:hover {
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  background-color: transparent;
+  color: var(--color-add-btn);
 }

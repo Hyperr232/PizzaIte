@@ -24,6 +24,7 @@
   height: 50px;
   width: 150px;
   font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
 }
 .header-basket-counter_btn > img {
   padding-right: 8px;

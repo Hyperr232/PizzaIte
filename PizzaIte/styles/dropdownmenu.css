@@ -5,6 +5,10 @@
   position: relative;
   flex: 0 0 auto;
 }
+.dropdown:hover img {
+  transform: rotate(0.5turn);
+  transition: all 0.2s ease-out;
+}
 
 /* Выпадающее содержимое (скрыто по умолчанию) */
 .dropdown-content {

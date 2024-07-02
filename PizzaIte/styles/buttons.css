@@ -9,9 +9,19 @@
   border: none;
   cursor: pointer;
 }
-.categories__btn_active {
+/* .categories__btn_active {
   background-color: var(--color-active);
   color: #ffffff;
+} */
+.categories__btn_active:hover {
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  background-color: var(--color-active);
+  color: rgb(255, 255, 255);
+}
+.categories__btn_active:focus {
+  background-color: var(--color-active);
+  color: rgb(255, 255, 255);
 }
 .categories {
   display: flex;

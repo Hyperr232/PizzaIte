@@ -48,6 +48,11 @@ hr {
   height: 1px;
   background-color: #f6f6f6;
 }
+a {
+  color: #000;
+  outline: none;
+  text-decoration: none;
+}
 
 .orange_btn {
   background-color: var(--color-primary);
@@ -70,4 +75,13 @@ hr {
   border: 1px solid #d3d3d3;
   background-color: transparent;
   cursor: pointer;
+}
+
+.black_btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.49px;
+  border-radius: 30px;
+  font-family: "Proxima Nova", sans-serif;
+  border: 1px solid #282828;
 }
